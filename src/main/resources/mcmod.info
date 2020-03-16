@@ -1,0 +1,16 @@
+[
+{
+  "modid": "nogitsu's_core",
+  "name": "Nogitsu's Core",
+  "description": "Core mod for all of my mods",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Nogitsu"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

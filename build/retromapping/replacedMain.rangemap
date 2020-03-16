@@ -1,0 +1,338 @@
+Unsupposrted library path: C:\Minecraft Developpment\workspace\nogitsu's_core\build\classes\java\api
+Unsupposrted library path: C:\Minecraft Developpment\workspace\nogitsu's_core\build\resources\api
+Symbol range map extraction starting
+Processing 10 files
+startProcessing "eu/nogitsu/core/ModClass.java" md5: 5ca318d5dbac17ec5b40f2e9a36a4fd7
+@|eu/nogitsu/core/ModClass.java|8|23|eu.nogitsu.core|package|eu.nogitsu.core|(file)
+Class Start: eu.nogitsu.core.ModClass
+   @|eu/nogitsu/core/ModClass.java|505|508|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|eu/nogitsu/core/ModClass.java|518|523|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|eu/nogitsu/core/ModClass.java|526|534|ModClass|class|eu.nogitsu.core.ModClass|false
+   @|eu/nogitsu/core/ModClass.java|535|540|MODID|field|eu.nogitsu.core.ModClass|MODID
+   @|eu/nogitsu/core/ModClass.java|550|561|useMetadata|method|net.minecraftforge.fml.common.Mod|useMetadata|()Z
+   @|eu/nogitsu/core/ModClass.java|585|593|ModClass|class|eu.nogitsu.core.ModClass|false
+   @|eu/nogitsu/core/ModClass.java|620|626|String|class|java.lang.String|false
+   @|eu/nogitsu/core/ModClass.java|620|626|String|class|java.lang.String|false
+   @|eu/nogitsu/core/ModClass.java|627|632|MODID|field|eu.nogitsu.core.ModClass|MODID|
+   @|eu/nogitsu/core/ModClass.java|672|678|Logger|class|org.apache.logging.log4j.Logger|false
+   @|eu/nogitsu/core/ModClass.java|672|678|Logger|class|org.apache.logging.log4j.Logger|false
+   @|eu/nogitsu/core/ModClass.java|679|685|logger|field|eu.nogitsu.core.ModClass|logger|
+   @|eu/nogitsu/core/ModClass.java|852|863|CommonProxy|class|eu.nogitsu.core.proxy.CommonProxy|false
+   @|eu/nogitsu/core/ModClass.java|693|703|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
+   @|eu/nogitsu/core/ModClass.java|717|727|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|eu/nogitsu/core/ModClass.java|779|789|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|eu/nogitsu/core/ModClass.java|852|863|CommonProxy|class|eu.nogitsu.core.proxy.CommonProxy|false
+   @|eu/nogitsu/core/ModClass.java|864|869|proxy|field|eu.nogitsu.core.ModClass|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|eu/nogitsu/core/ModClass.java|941|946|event|param|eu.nogitsu.core.ModClass|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|eu/nogitsu/core/ModClass.java|877|889|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|eu/nogitsu/core/ModClass.java|906|913|preInit|method|eu.nogitsu.core.ModClass|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|eu/nogitsu/core/ModClass.java|915|940|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|eu/nogitsu/core/ModClass.java|963|969|logger|field|eu.nogitsu.core.ModClass|logger
+      @|eu/nogitsu/core/ModClass.java|972|977|event|param|eu.nogitsu.core.ModClass|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|eu/nogitsu/core/ModClass.java|978|987|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+      @|eu/nogitsu/core/ModClass.java|999|1005|logger|field|eu.nogitsu.core.ModClass|logger
+      @|eu/nogitsu/core/ModClass.java|1006|1010|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|eu/nogitsu/core/ModClass.java|1095|1100|event|param|eu.nogitsu.core.ModClass|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|eu/nogitsu/core/ModClass.java|1037|1049|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|eu/nogitsu/core/ModClass.java|1066|1070|init|method|eu.nogitsu.core.ModClass|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|eu/nogitsu/core/ModClass.java|1072|1094|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|eu/nogitsu/core/ModClass.java|1117|1123|logger|field|eu.nogitsu.core.ModClass|logger
+      @|eu/nogitsu/core/ModClass.java|1124|1128|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|eu/nogitsu/core/ModClass.java|1149|1160|OreDictInit|class|eu.nogitsu.core.init.OreDictInit|false
+      @|eu/nogitsu/core/ModClass.java|1161|1173|registerOres|method|eu.nogitsu.core.init.OreDictInit|registerOres|()V
+      @|eu/nogitsu/core/ModClass.java|1185|1190|proxy|field|eu.nogitsu.core.ModClass|proxy
+      @|eu/nogitsu/core/ModClass.java|1191|1197|render|method|eu.nogitsu.core.proxy.CommonProxy|render|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|eu/nogitsu/core/ModClass.java|1279|1284|event|param|eu.nogitsu.core.ModClass|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|eu/nogitsu/core/ModClass.java|1213|1225|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|eu/nogitsu/core/ModClass.java|1242|1250|postInit|method|eu.nogitsu.core.ModClass|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|eu/nogitsu/core/ModClass.java|1252|1278|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+      @|eu/nogitsu/core/ModClass.java|1297|1303|logger|field|eu.nogitsu.core.ModClass|logger
+      @|eu/nogitsu/core/ModClass.java|1304|1308|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : eu.nogitsu.core.ModClass
+endProcessing "eu/nogitsu/core/ModClass.java"
+
+startProcessing "eu/nogitsu/core/ModRegistry.java" md5: 76da7ebf7019efecac436b343aa27c8d
+@|eu/nogitsu/core/ModRegistry.java|8|23|eu.nogitsu.core|package|eu.nogitsu.core|(file)
+Class Start: eu.nogitsu.core.ModRegistry
+   @|eu/nogitsu/core/ModRegistry.java|470|488|EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|eu/nogitsu/core/ModRegistry.java|503|514|ModRegistry|class|eu.nogitsu.core.ModRegistry|false
+   Method Start: onItemRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|eu/nogitsu/core/ModRegistry.java|595|600|event|param|eu.nogitsu.core.ModRegistry|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|eu/nogitsu/core/ModRegistry.java|523|537|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|eu/nogitsu/core/ModRegistry.java|562|576|onItemRegister|method|eu.nogitsu.core.ModRegistry|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|eu/nogitsu/core/ModRegistry.java|578|586|Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|eu/nogitsu/core/ModRegistry.java|588|592|Item|class|net.minecraft.item.Item|false
+      @|eu/nogitsu/core/ModRegistry.java|614|622|ModClass|class|eu.nogitsu.core.ModClass|false
+      @|eu/nogitsu/core/ModRegistry.java|623|629|logger|field|eu.nogitsu.core.ModClass|logger
+      @|eu/nogitsu/core/ModRegistry.java|630|634|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|eu/nogitsu/core/ModRegistry.java|660|669|ItemsInit|class|eu.nogitsu.core.init.ItemsInit|false
+      @|eu/nogitsu/core/ModRegistry.java|670|680|Registered|field|eu.nogitsu.core.init.ItemsInit|Registered
+      @|eu/nogitsu/core/ModRegistry.java|681|685|size|method|java.util.Collection|size|()I
+      @|eu/nogitsu/core/ModRegistry.java|718|723|event|param|eu.nogitsu.core.ModRegistry|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|eu/nogitsu/core/ModRegistry.java|724|735|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|eu/nogitsu/core/ModRegistry.java|738|749|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|eu/nogitsu/core/ModRegistry.java|751|760|ItemsInit|class|eu.nogitsu.core.init.ItemsInit|false
+      @|eu/nogitsu/core/ModRegistry.java|761|771|Registered|field|eu.nogitsu.core.init.ItemsInit|Registered
+      @|eu/nogitsu/core/ModRegistry.java|772|779|toArray|method|java.util.Collection|toArray|([Ljava/lang/Object;)[Ljava/lang/Object;
+      @|eu/nogitsu/core/ModRegistry.java|785|789|Item|class|net.minecraft.item.Item|false
+   Method End: onItemRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: onBlockRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|eu/nogitsu/core/ModRegistry.java|887|892|event|param|eu.nogitsu.core.ModRegistry|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|eu/nogitsu/core/ModRegistry.java|813|827|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|eu/nogitsu/core/ModRegistry.java|852|867|onBlockRegister|method|eu.nogitsu.core.ModRegistry|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|eu/nogitsu/core/ModRegistry.java|869|877|Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|eu/nogitsu/core/ModRegistry.java|879|884|Block|class|net.minecraft.block.Block|false
+      @|eu/nogitsu/core/ModRegistry.java|906|914|ModClass|class|eu.nogitsu.core.ModClass|false
+      @|eu/nogitsu/core/ModRegistry.java|915|921|logger|field|eu.nogitsu.core.ModClass|logger
+      @|eu/nogitsu/core/ModRegistry.java|922|926|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|eu/nogitsu/core/ModRegistry.java|953|963|BlocksInit|class|eu.nogitsu.core.init.BlocksInit|false
+      @|eu/nogitsu/core/ModRegistry.java|964|974|Registered|field|eu.nogitsu.core.init.BlocksInit|Registered
+      @|eu/nogitsu/core/ModRegistry.java|975|979|size|method|java.util.Collection|size|()I
+      @|eu/nogitsu/core/ModRegistry.java|1012|1017|event|param|eu.nogitsu.core.ModRegistry|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|eu/nogitsu/core/ModRegistry.java|1018|1029|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|eu/nogitsu/core/ModRegistry.java|1032|1043|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|eu/nogitsu/core/ModRegistry.java|1045|1055|BlocksInit|class|eu.nogitsu.core.init.BlocksInit|false
+      @|eu/nogitsu/core/ModRegistry.java|1056|1066|Registered|field|eu.nogitsu.core.init.BlocksInit|Registered
+      @|eu/nogitsu/core/ModRegistry.java|1067|1074|toArray|method|java.util.Collection|toArray|([Ljava/lang/Object;)[Ljava/lang/Object;
+      @|eu/nogitsu/core/ModRegistry.java|1080|1090|BlockClass|class|eu.nogitsu.core.classes.BlockClass|false
+   Method End: onBlockRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: onModelRegister(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|eu/nogitsu/core/ModRegistry.java|1189|1194|event|param|eu.nogitsu.core.ModRegistry|onModelRegister|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|eu/nogitsu/core/ModRegistry.java|1114|1128|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|eu/nogitsu/core/ModRegistry.java|1153|1168|onModelRegister|method|eu.nogitsu.core.ModRegistry|onModelRegister|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|eu/nogitsu/core/ModRegistry.java|1170|1188|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|eu/nogitsu/core/ModRegistry.java|1214|1218|Item|class|net.minecraft.item.Item|false
+      @|eu/nogitsu/core/ModRegistry.java|1226|1235|ItemsInit|class|eu.nogitsu.core.init.ItemsInit|false
+      @|eu/nogitsu/core/ModRegistry.java|1236|1246|Registered|field|eu.nogitsu.core.init.ItemsInit|Registered
+      @|eu/nogitsu/core/ModRegistry.java|1263|1271|ModClass|class|eu.nogitsu.core.ModClass|false
+      @|eu/nogitsu/core/ModRegistry.java|1272|1277|proxy|field|eu.nogitsu.core.ModClass|proxy
+      @|eu/nogitsu/core/ModRegistry.java|1278|1298|registerItemRenderer|method|eu.nogitsu.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;)V
+      @|eu/nogitsu/core/ModRegistry.java|1336|1341|Block|class|net.minecraft.block.Block|false
+      @|eu/nogitsu/core/ModRegistry.java|1350|1360|BlocksInit|class|eu.nogitsu.core.init.BlocksInit|false
+      @|eu/nogitsu/core/ModRegistry.java|1361|1371|Registered|field|eu.nogitsu.core.init.BlocksInit|Registered
+      @|eu/nogitsu/core/ModRegistry.java|1389|1397|ModClass|class|eu.nogitsu.core.ModClass|false
+      @|eu/nogitsu/core/ModRegistry.java|1398|1403|proxy|field|eu.nogitsu.core.ModClass|proxy
+      @|eu/nogitsu/core/ModRegistry.java|1404|1424|registerItemRenderer|method|eu.nogitsu.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;)V
+      @|eu/nogitsu/core/ModRegistry.java|1426|1430|Item|class|net.minecraft.item.Item|false
+      @|eu/nogitsu/core/ModRegistry.java|1431|1447|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+   Method End: onModelRegister(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+Class End  : eu.nogitsu.core.ModRegistry
+endProcessing "eu/nogitsu/core/ModRegistry.java"
+
+startProcessing "eu/nogitsu/core/classes/BlockClass.java" md5: 975068f7dc77f165f6ca46933679fb61
+@|eu/nogitsu/core/classes/BlockClass.java|8|31|eu.nogitsu.core.classes|package|eu.nogitsu.core.classes|(file)
+Class Start: eu.nogitsu.core.classes.BlockClass
+   @|eu/nogitsu/core/classes/BlockClass.java|373|383|BlockClass|class|eu.nogitsu.core.classes.BlockClass|false
+   @|eu/nogitsu/core/classes/BlockClass.java|392|397|Block|class|net.minecraft.block.Block|false
+   Method Start: BlockClass(Ljava/lang/String;)V
+      @|eu/nogitsu/core/classes/BlockClass.java|431|439|block_id|param|eu.nogitsu.core.classes.BlockClass|BlockClass|(Ljava/lang/String;)V|block_id|0
+      @|eu/nogitsu/core/classes/BlockClass.java|412|422|BlockClass|method|eu.nogitsu.core.classes.BlockClass|BlockClass|(Ljava/lang/String;)V
+      @|eu/nogitsu/core/classes/BlockClass.java|424|430|String|class|java.lang.String|false
+      @|eu/nogitsu/core/classes/BlockClass.java|460|468|Material|class|net.minecraft.block.material.Material|false
+      @|eu/nogitsu/core/classes/BlockClass.java|469|473|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|eu/nogitsu/core/classes/BlockClass.java|488|506|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|eu/nogitsu/core/classes/BlockClass.java|508|516|block_id|param|eu.nogitsu.core.classes.BlockClass|BlockClass|(Ljava/lang/String;)V|block_id|0
+      @|eu/nogitsu/core/classes/BlockClass.java|529|544|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|eu/nogitsu/core/classes/BlockClass.java|546|554|block_id|param|eu.nogitsu.core.classes.BlockClass|BlockClass|(Ljava/lang/String;)V|block_id|0
+      @|eu/nogitsu/core/classes/BlockClass.java|569|583|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|eu/nogitsu/core/classes/BlockClass.java|585|597|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+      @|eu/nogitsu/core/classes/BlockClass.java|598|613|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+      @|eu/nogitsu/core/classes/BlockClass.java|626|638|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|eu/nogitsu/core/classes/BlockClass.java|640|649|SoundType|class|net.minecraft.block.SoundType|false
+      @|eu/nogitsu/core/classes/BlockClass.java|650|655|STONE|field|net.minecraft.block.SoundType|STONE
+      @|eu/nogitsu/core/classes/BlockClass.java|670|678|ModClass|class|eu.nogitsu.core.ModClass|false
+      @|eu/nogitsu/core/classes/BlockClass.java|679|685|logger|field|eu.nogitsu.core.ModClass|logger
+      @|eu/nogitsu/core/classes/BlockClass.java|686|690|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|eu/nogitsu/core/classes/BlockClass.java|713|721|block_id|param|eu.nogitsu.core.classes.BlockClass|BlockClass|(Ljava/lang/String;)V|block_id|0
+      @|eu/nogitsu/core/classes/BlockClass.java|743|753|BlocksInit|class|eu.nogitsu.core.init.BlocksInit|false
+      @|eu/nogitsu/core/classes/BlockClass.java|754|764|Registered|field|eu.nogitsu.core.init.BlocksInit|Registered
+      @|eu/nogitsu/core/classes/BlockClass.java|765|768|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|eu/nogitsu/core/classes/BlockClass.java|787|796|ItemsInit|class|eu.nogitsu.core.init.ItemsInit|false
+      @|eu/nogitsu/core/classes/BlockClass.java|797|807|Registered|field|eu.nogitsu.core.init.ItemsInit|Registered
+      @|eu/nogitsu/core/classes/BlockClass.java|808|811|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|eu/nogitsu/core/classes/BlockClass.java|817|826|ItemBlock|class|net.minecraft.item.ItemBlock|false
+      @|eu/nogitsu/core/classes/BlockClass.java|835|850|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|eu/nogitsu/core/classes/BlockClass.java|857|872|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: BlockClass(Ljava/lang/String;)V
+Class End  : eu.nogitsu.core.classes.BlockClass
+endProcessing "eu/nogitsu/core/classes/BlockClass.java"
+
+startProcessing "eu/nogitsu/core/classes/CreativeTabClass.java" md5: 970f817f3e55a6ecb0c0d880fb3189d3
+@|eu/nogitsu/core/classes/CreativeTabClass.java|8|31|eu.nogitsu.core.classes|package|eu.nogitsu.core.classes|(file)
+Class Start: eu.nogitsu.core.classes.CreativeTabClass
+   @|eu/nogitsu/core/classes/CreativeTabClass.java|170|186|CreativeTabClass|class|eu.nogitsu.core.classes.CreativeTabClass|false
+   @|eu/nogitsu/core/classes/CreativeTabClass.java|195|207|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+   @|eu/nogitsu/core/classes/CreativeTabClass.java|223|232|ItemStack|class|net.minecraft.item.ItemStack|false
+   @|eu/nogitsu/core/classes/CreativeTabClass.java|223|232|ItemStack|class|net.minecraft.item.ItemStack|false
+   @|eu/nogitsu/core/classes/CreativeTabClass.java|233|237|item|field|eu.nogitsu.core.classes.CreativeTabClass|item|
+   Method Start: CreativeTabClass(Ljava/lang/String;Lnet/minecraft/item/Item;)V
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|278|283|label|param|eu.nogitsu.core.classes.CreativeTabClass|CreativeTabClass|(Ljava/lang/String;Lnet/minecraft/item/Item;)V|label|0
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|290|294|item|param|eu.nogitsu.core.classes.CreativeTabClass|CreativeTabClass|(Ljava/lang/String;Lnet/minecraft/item/Item;)V|item|1
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|253|269|CreativeTabClass|method|eu.nogitsu.core.classes.CreativeTabClass|CreativeTabClass|(Ljava/lang/String;Lnet/minecraft/item/Item;)V
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|271|277|String|class|java.lang.String|false
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|285|289|Item|class|net.minecraft.item.Item|false
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|315|320|label|param|eu.nogitsu.core.classes.CreativeTabClass|CreativeTabClass|(Ljava/lang/String;Lnet/minecraft/item/Item;)V|label|0
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|340|344|item|field|eu.nogitsu.core.classes.CreativeTabClass|item
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|351|360|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|362|366|item|param|eu.nogitsu.core.classes.CreativeTabClass|CreativeTabClass|(Ljava/lang/String;Lnet/minecraft/item/Item;)V|item|1
+   Method End: CreativeTabClass(Ljava/lang/String;Lnet/minecraft/item/Item;)V
+   Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|385|393|Override|class|java.lang.Override|false
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|406|415|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|416|430|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+      @|eu/nogitsu/core/classes/CreativeTabClass.java|456|460|item|field|eu.nogitsu.core.classes.CreativeTabClass|item
+   Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+Class End  : eu.nogitsu.core.classes.CreativeTabClass
+endProcessing "eu/nogitsu/core/classes/CreativeTabClass.java"
+
+startProcessing "eu/nogitsu/core/classes/ItemClass.java" md5: 05cf61a54786f80045406cc8f718f929
+@|eu/nogitsu/core/classes/ItemClass.java|8|31|eu.nogitsu.core.classes|package|eu.nogitsu.core.classes|(file)
+Class Start: eu.nogitsu.core.classes.ItemClass
+   @|eu/nogitsu/core/classes/ItemClass.java|206|215|ItemClass|class|eu.nogitsu.core.classes.ItemClass|false
+   @|eu/nogitsu/core/classes/ItemClass.java|224|228|Item|class|net.minecraft.item.Item|false
+   Method Start: ItemClass(Ljava/lang/String;)V
+      @|eu/nogitsu/core/classes/ItemClass.java|261|268|item_id|param|eu.nogitsu.core.classes.ItemClass|ItemClass|(Ljava/lang/String;)V|item_id|0
+      @|eu/nogitsu/core/classes/ItemClass.java|243|252|ItemClass|method|eu.nogitsu.core.classes.ItemClass|ItemClass|(Ljava/lang/String;)V
+      @|eu/nogitsu/core/classes/ItemClass.java|254|260|String|class|java.lang.String|false
+      @|eu/nogitsu/core/classes/ItemClass.java|282|296|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|eu/nogitsu/core/classes/ItemClass.java|298|310|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+      @|eu/nogitsu/core/classes/ItemClass.java|311|315|MISC|field|net.minecraft.creativetab.CreativeTabs|MISC
+      @|eu/nogitsu/core/classes/ItemClass.java|330|348|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|eu/nogitsu/core/classes/ItemClass.java|350|357|item_id|param|eu.nogitsu.core.classes.ItemClass|ItemClass|(Ljava/lang/String;)V|item_id|0
+      @|eu/nogitsu/core/classes/ItemClass.java|370|385|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|eu/nogitsu/core/classes/ItemClass.java|387|394|item_id|param|eu.nogitsu.core.classes.ItemClass|ItemClass|(Ljava/lang/String;)V|item_id|0
+      @|eu/nogitsu/core/classes/ItemClass.java|409|417|ModClass|class|eu.nogitsu.core.ModClass|false
+      @|eu/nogitsu/core/classes/ItemClass.java|418|424|logger|field|eu.nogitsu.core.ModClass|logger
+      @|eu/nogitsu/core/classes/ItemClass.java|425|429|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|eu/nogitsu/core/classes/ItemClass.java|451|458|item_id|param|eu.nogitsu.core.classes.ItemClass|ItemClass|(Ljava/lang/String;)V|item_id|0
+      @|eu/nogitsu/core/classes/ItemClass.java|480|489|ItemsInit|class|eu.nogitsu.core.init.ItemsInit|false
+      @|eu/nogitsu/core/classes/ItemClass.java|490|500|Registered|field|eu.nogitsu.core.init.ItemsInit|Registered
+      @|eu/nogitsu/core/classes/ItemClass.java|501|504|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: ItemClass(Ljava/lang/String;)V
+Class End  : eu.nogitsu.core.classes.ItemClass
+endProcessing "eu/nogitsu/core/classes/ItemClass.java"
+
+startProcessing "eu/nogitsu/core/init/BlocksInit.java" md5: 92c58cd32550103d71f1573a70be4dbd
+@|eu/nogitsu/core/init/BlocksInit.java|8|28|eu.nogitsu.core.init|package|eu.nogitsu.core.init|(file)
+Class Start: eu.nogitsu.core.init.BlocksInit
+   @|eu/nogitsu/core/init/BlocksInit.java|138|148|BlocksInit|class|eu.nogitsu.core.init.BlocksInit|false
+   @|eu/nogitsu/core/init/BlocksInit.java|182|187|Block|class|net.minecraft.block.Block|false
+   @|eu/nogitsu/core/init/BlocksInit.java|176|180|List|class|java.util.List|false
+   @|eu/nogitsu/core/init/BlocksInit.java|176|180|List|class|java.util.List|false
+   @|eu/nogitsu/core/init/BlocksInit.java|182|187|Block|class|net.minecraft.block.Block|false
+   @|eu/nogitsu/core/init/BlocksInit.java|190|200|Registered|field|eu.nogitsu.core.init.BlocksInit|Registered|
+   @|eu/nogitsu/core/init/BlocksInit.java|207|216|ArrayList|class|java.util.ArrayList|false
+   @|eu/nogitsu/core/init/BlocksInit.java|218|223|Block|class|net.minecraft.block.Block|false
+Class End  : eu.nogitsu.core.init.BlocksInit
+endProcessing "eu/nogitsu/core/init/BlocksInit.java"
+
+startProcessing "eu/nogitsu/core/init/ItemsInit.java" md5: fb85b72b1579c29e2eeda610d7b76340
+@|eu/nogitsu/core/init/ItemsInit.java|8|28|eu.nogitsu.core.init|package|eu.nogitsu.core.init|(file)
+Class Start: eu.nogitsu.core.init.ItemsInit
+   @|eu/nogitsu/core/init/ItemsInit.java|179|188|ItemsInit|class|eu.nogitsu.core.init.ItemsInit|false
+   @|eu/nogitsu/core/init/ItemsInit.java|222|226|Item|class|net.minecraft.item.Item|false
+   @|eu/nogitsu/core/init/ItemsInit.java|216|220|List|class|java.util.List|false
+   @|eu/nogitsu/core/init/ItemsInit.java|216|220|List|class|java.util.List|false
+   @|eu/nogitsu/core/init/ItemsInit.java|222|226|Item|class|net.minecraft.item.Item|false
+   @|eu/nogitsu/core/init/ItemsInit.java|229|239|Registered|field|eu.nogitsu.core.init.ItemsInit|Registered|
+   @|eu/nogitsu/core/init/ItemsInit.java|246|255|ArrayList|class|java.util.ArrayList|false
+   @|eu/nogitsu/core/init/ItemsInit.java|257|261|Item|class|net.minecraft.item.Item|false
+Class End  : eu.nogitsu.core.init.ItemsInit
+endProcessing "eu/nogitsu/core/init/ItemsInit.java"
+
+startProcessing "eu/nogitsu/core/init/OreDictInit.java" md5: f515159bbdb85c018356f4f61d060ee1
+@|eu/nogitsu/core/init/OreDictInit.java|8|28|eu.nogitsu.core.init|package|eu.nogitsu.core.init|(file)
+Class Start: eu.nogitsu.core.init.OreDictInit
+   @|eu/nogitsu/core/init/OreDictInit.java|171|182|OreDictInit|class|eu.nogitsu.core.init.OreDictInit|false
+   Method Start: registerOres()V
+      @|eu/nogitsu/core/init/OreDictInit.java|209|221|registerOres|method|eu.nogitsu.core.init.OreDictInit|registerOres|()V
+      @|eu/nogitsu/core/init/OreDictInit.java|296|309|OreDictionary|class|net.minecraftforge.oredict.OreDictionary|false
+      @|eu/nogitsu/core/init/OreDictInit.java|310|321|registerOre|method|net.minecraftforge.oredict.OreDictionary|registerOre|(Ljava/lang/String;Lnet/minecraft/item/ItemStack;)V
+      @|eu/nogitsu/core/init/OreDictInit.java|336|345|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|eu/nogitsu/core/init/OreDictInit.java|346|352|Blocks|class|net.minecraft.init.Blocks|false
+      @|eu/nogitsu/core/init/OreDictInit.java|353|359|CARPET|field|net.minecraft.init.Blocks|CARPET
+   Method End: registerOres()V
+Class End  : eu.nogitsu.core.init.OreDictInit
+endProcessing "eu/nogitsu/core/init/OreDictInit.java"
+
+startProcessing "eu/nogitsu/core/proxy/ClientProxy.java" md5: 83f15ffbb1ad39d65f4cbbea93e75962
+@|eu/nogitsu/core/proxy/ClientProxy.java|8|29|eu.nogitsu.core.proxy|package|eu.nogitsu.core.proxy|(file)
+Class Start: eu.nogitsu.core.proxy.ClientProxy
+   @|eu/nogitsu/core/proxy/ClientProxy.java|242|253|ClientProxy|class|eu.nogitsu.core.proxy.ClientProxy|false
+   @|eu/nogitsu/core/proxy/ClientProxy.java|262|273|CommonProxy|class|eu.nogitsu.core.proxy.CommonProxy|false
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|eu/nogitsu/core/proxy/ClientProxy.java|336|340|item|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|eu/nogitsu/core/proxy/ClientProxy.java|346|350|meta|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|eu/nogitsu/core/proxy/ClientProxy.java|359|366|variant|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|variant|2
+      @|eu/nogitsu/core/proxy/ClientProxy.java|283|291|Override|class|java.lang.Override|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|309|329|registerItemRenderer|method|eu.nogitsu.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|eu/nogitsu/core/proxy/ClientProxy.java|331|335|Item|class|net.minecraft.item.Item|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|352|358|String|class|java.lang.String|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|385|396|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|397|427|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|eu/nogitsu/core/proxy/ClientProxy.java|429|433|item|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|eu/nogitsu/core/proxy/ClientProxy.java|435|439|meta|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|eu/nogitsu/core/proxy/ClientProxy.java|445|466|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|468|472|item|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|eu/nogitsu/core/proxy/ClientProxy.java|473|488|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|eu/nogitsu/core/proxy/ClientProxy.java|492|499|variant|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|variant|2
+      @|eu/nogitsu/core/proxy/ClientProxy.java|514|522|ModClass|class|eu.nogitsu.core.ModClass|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|523|529|logger|field|eu.nogitsu.core.ModClass|logger
+      @|eu/nogitsu/core/proxy/ClientProxy.java|530|534|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|eu/nogitsu/core/proxy/ClientProxy.java|562|566|item|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|eu/nogitsu/core/proxy/ClientProxy.java|567|582|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|eu/nogitsu/core/proxy/ClientProxy.java|593|600|variant|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|variant|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;)V
+      @|eu/nogitsu/core/proxy/ClientProxy.java|679|683|item|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;)V|item|0
+      @|eu/nogitsu/core/proxy/ClientProxy.java|626|634|Override|class|java.lang.Override|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|652|672|registerItemRenderer|method|eu.nogitsu.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;)V
+      @|eu/nogitsu/core/proxy/ClientProxy.java|674|678|Item|class|net.minecraft.item.Item|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|702|713|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|714|744|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|eu/nogitsu/core/proxy/ClientProxy.java|746|750|item|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;)V|item|0
+      @|eu/nogitsu/core/proxy/ClientProxy.java|759|780|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|782|786|item|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;)V|item|0
+      @|eu/nogitsu/core/proxy/ClientProxy.java|787|802|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|eu/nogitsu/core/proxy/ClientProxy.java|832|840|ModClass|class|eu.nogitsu.core.ModClass|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|841|847|logger|field|eu.nogitsu.core.ModClass|logger
+      @|eu/nogitsu/core/proxy/ClientProxy.java|848|852|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|eu/nogitsu/core/proxy/ClientProxy.java|880|884|item|param|eu.nogitsu.core.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;)V|item|0
+      @|eu/nogitsu/core/proxy/ClientProxy.java|885|900|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;)V
+   Method Start: render()V
+      @|eu/nogitsu/core/proxy/ClientProxy.java|938|946|Override|class|java.lang.Override|false
+      @|eu/nogitsu/core/proxy/ClientProxy.java|964|970|render|method|eu.nogitsu.core.proxy.CommonProxy|render|()V
+   Method End: render()V
+Class End  : eu.nogitsu.core.proxy.ClientProxy
+endProcessing "eu/nogitsu/core/proxy/ClientProxy.java"
+
+startProcessing "eu/nogitsu/core/proxy/CommonProxy.java" md5: bd6d1f1eae8681d2ad809226519cfb46
+@|eu/nogitsu/core/proxy/CommonProxy.java|8|29|eu.nogitsu.core.proxy|package|eu.nogitsu.core.proxy|(file)
+Class Start: eu.nogitsu.core.proxy.CommonProxy
+   @|eu/nogitsu/core/proxy/CommonProxy.java|82|93|CommonProxy|class|eu.nogitsu.core.proxy.CommonProxy|false
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|eu/nogitsu/core/proxy/CommonProxy.java|140|144|item|param|eu.nogitsu.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|eu/nogitsu/core/proxy/CommonProxy.java|150|154|meta|param|eu.nogitsu.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|eu/nogitsu/core/proxy/CommonProxy.java|163|165|id|param|eu.nogitsu.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|eu/nogitsu/core/proxy/CommonProxy.java|113|133|registerItemRenderer|method|eu.nogitsu.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|eu/nogitsu/core/proxy/CommonProxy.java|135|139|Item|class|net.minecraft.item.Item|false
+      @|eu/nogitsu/core/proxy/CommonProxy.java|156|162|String|class|java.lang.String|false
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;)V
+      @|eu/nogitsu/core/proxy/CommonProxy.java|225|229|item|param|eu.nogitsu.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;)V|item|0
+      @|eu/nogitsu/core/proxy/CommonProxy.java|198|218|registerItemRenderer|method|eu.nogitsu.core.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;)V
+      @|eu/nogitsu/core/proxy/CommonProxy.java|220|224|Item|class|net.minecraft.item.Item|false
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;)V
+   Method Start: render()V
+      @|eu/nogitsu/core/proxy/CommonProxy.java|267|273|render|method|eu.nogitsu.core.proxy.CommonProxy|render|()V
+   Method End: render()V
+Class End  : eu.nogitsu.core.proxy.CommonProxy
+endProcessing "eu/nogitsu/core/proxy/CommonProxy.java"
+
